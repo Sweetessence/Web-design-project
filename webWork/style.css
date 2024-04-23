@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.left-navbar h1{
+    font-family: cursive;
+}
+
+.right-navbar ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 80px;
+}
+
+.right-navbar ul li a{
+    text-decoration: none;
+    color: #777;
+    font-size: 20px;
+}
+.profile-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+
+.profile-info{
+    width: 500px;
+}
+
+.profile-info h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.profile-info p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.profile-img{
+    width: 400px;
+    height: 400px;
+}
+
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-btns button{
+    width: 120px;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.talk-btn{
+    background-color: rgb(32, 4, 132);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.port-btn{
+    border: none;
+    font-weight: 900;
+    border: none;
+}
+
+.profile-link ul li{
+    margin-top: 30px;
+    list-style: none;
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.profile-link ul li img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.service{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    background: lightgreen;
+}
+
+.our-service{
+    width: 500px;
+}
+.ss{
+    width: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.web-se {
+    width: 200px;
+    border-top: 2px solid #222;
+    margin-bottom: 20px;
+}
+
+.web-se h2 span{
+    margin-right: 20px;
+}
+
+.skills{
+    padding: 80px 60px;
+}
+
+.skills p{
+    font-size: 50px;
+    width: 120px;
+    margin-left: 100px;
+}
+.skills p.sk-txt{
+    width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #222;
+}
+    
+.exp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.circle-text{
+    margin-top: 20px;
+}
+.project{
+    padding: 30px 20px;
+    background-color: lightgreen;
+}
+
+.project p{
+    width: 150px;
+    font-size: 45px;
+    margin-left: 100px;
+}
+.client-h p{
+    width: 200px;
+    font-size: 45px;
+    margin-left: 100px;
+}
+
+.project-gallery{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.see-cl{
+    display: flex;
+    margin-top: 50px;
+}
+
+.client-e{
+    width: 450px;   
+}
+.client-e p{
+    margin-left: 140px;
+
+}
+
+.client-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+}
+
+.client-card {
+    width: 200px;
+    height: 200px;
+    padding: 10px 60px;
+}
+
+.client-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.client-text h3{
+    margin-top: 20px;
+}
+.client-text h3 , .client-text h4{
+    margin-bottom: 10px;
+}
+.client-text p{
+    margin-top: 20px;
+}
+
+.client-text {
+    width: 500px;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.discuss{
+    padding: 50px 20px;
+    background-color: lightgreen;
+}
+
+.discuss p{
+    font-size: 45px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.discuss-email{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 60px;
+    padding: 40px 20px;
+    border-top: 2px solid #222;
+    
+}
+
+.email-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.email-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.email-text a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.email-text p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: black;
+    font-weight: 900;
+    margin-left: 0;
+}
